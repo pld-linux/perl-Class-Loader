@@ -25,7 +25,7 @@ Modu³ Perla Class::Loader - wczytuj±cy modu³y i tworz±cy obiekty na
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
