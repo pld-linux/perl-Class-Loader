@@ -27,7 +27,7 @@ Modu³ Perla Class::Loader - wczytuj±cy modu³y i tworz±cy obiekty na
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
