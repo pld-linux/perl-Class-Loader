@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Class
 %define		pnam	Loader
-Summary:	Class-Loader perl module
-Summary(pl):	Modu³ perla Class-Loader
+Summary:	Class::Loader perl module
+Summary(pl):	Modu³ perla Class::Loader
 Name:		perl-Class-Loader
 Version:	2.02
 Release:	1
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Class-Loader perl module.
+Class::Loader perl module.
 
 %description -l pl
-Modu³ perla Class-Loader.
+Modu³ perla Class::Loader.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
