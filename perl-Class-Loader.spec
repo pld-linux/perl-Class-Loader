@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Class
-%define		pnam	Loader
+%define	pdir	Class
+%define	pnam	Loader
 Summary:	Class::Loader - load modules and create objects on demand
 Summary(pl):	Class::Loader - wczytywanie modu³ów i tworzenie obiektów na ¿±danie
 Name:		perl-Class-Loader
