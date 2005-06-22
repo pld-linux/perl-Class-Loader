@@ -8,13 +8,13 @@
 Summary:	Class::Loader - load modules and create objects on demand
 Summary(pl):	Class::Loader - wczytywanie modu³ów i tworzenie obiektów na ¿±danie
 Name:		perl-Class-Loader
-Version:	2.02
-Release:	5
+Version:	2.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a023ae4c71186fa4fc3e6bf5fe60b692
+# Source0-md5:	2e2ace3429380e2dad2f0e82137511b8
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
