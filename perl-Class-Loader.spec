@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Loader
 Summary:	Class::Loader - load modules and create objects on demand
-Summary(pl):	Class::Loader - wczytywanie modu³ów i tworzenie obiektów na ¿±danie
+Summary(pl.UTF-8):   Class::Loader - wczytywanie moduÅ‚Ã³w i tworzenie obiektÃ³w na Å¼Ä…danie
 Name:		perl-Class-Loader
 Version:	2.03
 Release:	1
@@ -25,10 +25,10 @@ Class::Loader is an inheritable class that provides a method, _load(),
 to load a module from disk and construct an object by calling its
 constructor.
 
-%description -l pl
-Class::Loader jest dziedziczon± klas± udostêpniaj±c± metodê _load(),
-s³u¿±c± do wczytania modu³u z dysku i stworzenia obiektu poprzez
-wywo³anie jego konstruktora.
+%description -l pl.UTF-8
+Class::Loader jest dziedziczonÄ… klasÄ… udostÄ™pniajÄ…cÄ… metodÄ™ _load(),
+sÅ‚uÅ¼Ä…cÄ… do wczytania moduÅ‚u z dysku i stworzenia obiektu poprzez
+wywoÅ‚anie jego konstruktora.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
