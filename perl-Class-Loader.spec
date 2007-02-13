@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Loader
 Summary:	Class::Loader - load modules and create objects on demand
-Summary(pl.UTF-8):   Class::Loader - wczytywanie modułów i tworzenie obiektów na żądanie
+Summary(pl.UTF-8):	Class::Loader - wczytywanie modułów i tworzenie obiektów na żądanie
 Name:		perl-Class-Loader
 Version:	2.03
 Release:	1
