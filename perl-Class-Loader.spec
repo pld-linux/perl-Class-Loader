@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Class
 %define		pnam	Loader
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Loader - load modules and create objects on demand
 Summary(pl.UTF-8):	Class::Loader - wczytywanie modułów i tworzenie obiektów na żądanie
 Name:		perl-Class-Loader
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2e2ace3429380e2dad2f0e82137511b8
+URL:		http://search.cpan.org/dist/Class-Loader/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
