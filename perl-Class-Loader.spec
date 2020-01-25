@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	Loader
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Loader - load modules and create objects on demand
 Summary(pl.UTF-8):	Class::Loader - wczytywanie modułów i tworzenie obiektów na żądanie
 Name:		perl-Class-Loader
